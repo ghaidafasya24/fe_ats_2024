@@ -9,6 +9,7 @@ function GetAllResponden(results) {
 }
 
 function isiRow(value) {
+    // console.log(value)
     let content = 
     isiTabel.replace("#USIA#", value.TugasWeek04_Kuisoner.usia)
             .replace("#JENISKELAMIN#", value.TugasWeek04_Kuisoner.jenis_kelamin)

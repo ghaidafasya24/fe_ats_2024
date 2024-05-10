@@ -12,14 +12,16 @@ export let isiTabel =
         ULBI</div>
     </div> -->
     <div class="w-auto p-2">
-      <p class="text-xs font-semibold text-coolGray-800">#USIA#</p>
+      // <p class="text-xs font-semibold text-coolGray-800">#USIA#</p>
     </div>
   </div>
 </th>
 <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">
+  #USIA#</th>
+<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">
   #JENISKELAMIN#</th>
-<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
-  #PROGRAMSTUDI#</th>
+// <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
+//   #PROGRAMSTUDI#</th>
 
 
 <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
