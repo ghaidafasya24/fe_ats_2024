@@ -11,9 +11,10 @@ function GetAllResponden(results) {
 function isiRow(value) {
     // console.log(value)
     let content = 
-    isiTabel.replace("#USIA#", value.TugasWeek04_Kuisoner.usia)
-            .replace("#JENISKELAMIN#", value.TugasWeek04_Kuisoner.jenis_kelamin)
-            .replace("#PROGRAMSTUDI#", value.TugasWeek04_Kuisoner.program_studi)
+    isiTabel.replace("#ID#", value._id)
+            .replace("#USIA#", value.usia)
+            .replace("#JENISKELAMIN#", value.jenis_kelamin)
+            .replace("#PROGRAMSTUDI#", value.program_studi)
             .replace("#WARNA#", getRandomColor())
             .replace(/#WARNALOGO#/g, getRandomColorName());
         addInner("iniTabel", content);
