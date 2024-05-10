@@ -2,24 +2,17 @@ export let isiTabel =
 `
 <tr class="h-18 border-b border-coolGray-100">
 <th class="whitespace-nowrap px-4 bg-white text-left">
-  <div class="flex items-center -m-2">
-   
-    <div class="w-auto p-2">
-      <div
-        class="flex items-center justify-center w-10 h-10 text-base font-medium text-#WARNALOGO#-600 bg-#WARNALOGO#-200 rounded-md">
-        #ID#</div>
-    </div>
-    
-  </div>
+ 
 </th>
-<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-left">
+<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
+  #ID#</th>
+<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
   #USIA#</th>
-<th class="whitespace-nowrap width px-4 bg-white text-sm font-medium text-coolGray-800 text-left">
+<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
   #JENISKELAMIN#</th>
 <th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
   #PROGRAMSTUDI#</th>
-<th class="whitespace-nowrap px-4 bg-white text-sm font-medium text-coolGray-800 text-center">
-  #NAMAPERTANYAAN#</th>
+
 
 
 <th class="whitespace-nowrap pr-4 bg-white text-sm font-medium text-coolGray-800">
