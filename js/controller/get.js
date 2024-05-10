@@ -6,6 +6,10 @@ export function GetAllResponden(results) {
     results.forEach(isiRow);
 }
 
+export function GetAllPertanyaan(results) {
+    results.forEach(isiRow);
+}
+
 function isiRow(value) {
     // console.log(value)
     let content = 
@@ -13,7 +17,7 @@ function isiRow(value) {
             .replace("#USIA#", value.usia)
             .replace("#JENISKELAMIN#", value.jenis_kelamin)
             .replace("#PROGRAMSTUDI#", value.program_studi)
-            .replace("#PROGRAMSTUDI#", value.program_studi)
+            .replace("#NAMAPERTANYAAN#", value.nama_pertanyaan)
             // .replace("#WARNA#", getRandomColor())
             // .replace(/#WARNALOGO#/g, getRandomColorName());
         addInner("iniTabel", content);
