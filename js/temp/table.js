@@ -3,8 +3,7 @@ export let isiTabel =
 <tr class="h-18 border-b border-coolGray-100">
 <th class="whitespace-nowrap px-4 bg-white text-left">
   <div class="flex items-center -m-2">
-    <div class="w-auto p-2">
-    </div>
+   
     <div class="w-auto p-2">
       <div
         class="flex items-center justify-center w-10 h-10 text-base font-medium text-#WARNALOGO#-600 bg-#WARNALOGO#-200 rounded-md">
